@@ -1,9 +1,3 @@
----
-layout: single
-title:  "Strassen Algorithm"
-date:   2021-04-28 16:20:35 +0900
-categories: jekyll update
----
 1.Strassen Algorithm이란?
 ================
 Strassen Algorithm은 독일의 수학자 Volker Strassen이 1969년에 개발한 행렬 곱셈 알고리즘이다.
@@ -36,11 +30,10 @@ Algorithm 설명
 2.코드(JAVA)
 =======
 
-{% highlight ruby %}
-import java.util.Scanner; 
+	import java.util.Scanner; 
 
-public class Strassen
-{
+	public class Strassen
+	{
     /** 두 행렬을 빼는 함수 **/
     public int[][] sub(int[][] A, int[][] B)
     {
@@ -154,7 +147,6 @@ public class Strassen
 
     }
 }
-{% endhighlight %}
 
 
 3. Strassen Algorithm 성능
